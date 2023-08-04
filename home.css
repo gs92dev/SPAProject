@@ -38,9 +38,9 @@ main{
     background-color: rgb(13, 127, 227);
 }
 .slides {
-    margin-top: 100px;
+ 
     width: 100%;
-    height: 400px;
+    height: 70%;
     position: absolute;
     transition: opacity .5s ease-in-out;
 }
