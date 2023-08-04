@@ -48,3 +48,28 @@ main{
 .slides+.slides {
     opacity: 0;
 }
+.letter{
+    position: fixed;
+    background-color: aliceblue;
+    width: 400px;
+    opacity: .8;
+    left: 70%;
+    top: 100px;
+    padding: 6px;
+}
+.letter-head{
+    justify-content: space-between;
+    margin: 0 4px 0 0;
+}
+.letter-head>p{
+    cursor: pointer;
+}
+.letter>form{
+    padding: 6px;
+}
+.letter>form>input{
+    cursor: pointer;
+}
+.none{
+    display: none;
+}
