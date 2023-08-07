@@ -82,7 +82,20 @@ main {
 }
 
 .letter>form>input {
+    padding: 4px;
+    background-color: rgb(210, 222, 222);
+    border-radius: 4px;
+}
+
+.letter-btn {
+    margin-left: 6px;
     cursor: pointer;
+    transition: background-color ease-in 5s;
+}
+
+.letter-btn:hover {
+    font-weight: bold;
+    background-color: rgb(53, 91, 91);
 }
 
 .none {
