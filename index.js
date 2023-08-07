@@ -13,8 +13,10 @@ let letter = document.getElementById("letter");
 let close = document.querySelector("[data-letter=close]");
 console.log(close);
 window.onload = function () {
-  letter.classList.remove("none");
+  setTimeout(() => {
+    letter.classList.remove("none");
+  }, 3000);
 };
 close.onclick = function () {
-  letter.classList.add("none")
-}
+  letter.classList.add("none");
+};
