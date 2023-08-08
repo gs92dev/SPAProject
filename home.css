@@ -47,7 +47,7 @@ main {
 .slides {
 
     width: 100%;
-    height: 70%;
+    height: 80%;
     position: absolute;
     transition: opacity .5s ease-in-out;
 }
@@ -57,16 +57,16 @@ main {
 }
 
 .letter {
-    position: fixed;
     background-color: rgb(210, 222, 222);
-    width: 400px;
-    opacity: .8;
-    right: 5%;
-    top: 150px;
-    padding: 6px;
-    height: 10rem;
     border-radius: 3px;
     border: solid 1px rgb(0, 0, 0);
+    height: 15rem;
+    opacity: .9;
+    padding: 6px;
+    position: fixed;
+    right: 5%;
+    top: 150px;
+    width: 400px;
 }
 
 .letter-head {

@@ -1,3 +1,4 @@
+//Image Slideshow
 var current = 0,
   slides = document.getElementsByClassName("slides");
 
@@ -8,10 +9,10 @@ setInterval(function () {
   current = current != slides.length - 1 ? current + 1 : 0;
   slides[current].style.opacity = 1;
 }, 5000);
-
+//News letter 
 let letter = document.getElementById("letter");
 let close = document.querySelector("[data-letter=close]");
-console.log(close);
+
 window.onload = function () {
   setTimeout(() => {
     letter.classList.remove("none");
