@@ -119,3 +119,23 @@ nav>ul>li>a {
     padding: 12px;
     color: rgb(12, 48, 20);
 }
+.service-container{
+    display: flex;
+    justify-content: space-around;
+}
+.service-list{
+    padding: 12px;
+ 
+   
+}
+.service-list>li{
+    padding: 12px;
+    margin : 20px 0 20px 10px;
+    font-size: 1.5rem;
+   
+}
+.service-img{
+    width: 500px;
+    height: 400px;
+    
+}
